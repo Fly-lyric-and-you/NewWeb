@@ -49,10 +49,10 @@
 
 #filter{
   position: absolute;
-  width: 110vw;
-  height: 110vh;
-  margin-top: -10vh;
-  margin-left: -10vw;
+  width: 120vw;
+  height: 120vh;
+  margin-top: -20vh;
+  margin-left: -20vw;
   opacity: 60%;
   background-color: var(--background-color);
 }
