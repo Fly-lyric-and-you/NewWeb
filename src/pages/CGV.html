@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="black" />
+        <link rel="icon" type="image/ico" sizes="16x16" href="./../../public/img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../../public/img/favicon.ico" />
+        <link rel="shortcut icon" href="../../public/img/favicon.ico" />
+    
+    <!---st-->
+        <link rel="stylesheet" href="../../src/styles/settings.css">
+        <link rel="stylesheet" href="../../src/styles/pages/background.css">
+        <link rel="stylesheet" href="../../src/styles/components/header.css">
+        <link rel="stylesheet" href="../../src/styles/components/footer.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/intro.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/feuillet.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/tele.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/carte.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/produit.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/description.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/like.css">
+        <link rel="stylesheet" href="../../src/styles/components/home/q&a.css">
+
+        <link rel="stylesheet" href="../../src/styles/components/about/about.css">
+        <link rel="stylesheet" href="../../src/styles/components/about/cote.css">
+        <link rel="stylesheet" href="../../src/styles/components/about/scroll-corps.css">
+
+        <link rel="stylesheet" href="../../src/styles/components/CGV/CGV.css">
+    <!---fin-st-->
+
+    <!--Ja-->
+        <script src="../../src/components/mouvement.js"></script>
+        <script type="text/javascript" src="../components/btt-order.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+    <!--fin-Ja-->
+    
+    <!--Goog-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5BR9J4Q630"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5BR9J4Q630');
+</script>
+    
+    <!--fin-Goog-->
+    
+        <title>FLY. CGV</title>
+</head>
+<body>
+
+    <script>
+        window.axeptioSettings = {
+          clientId: "62508b716976ee645f41f26a",
+          cookiesVersion: "xxxxx"
+        };
+         
+        (function(d, s) {
+          var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+          e.async = true; e.src = "//static.axept.io/sdk.js";
+          t.parentNode.insertBefore(e, t);
+        })(document, "script");
+    </script>
+    
+    <div class="corpus">
+        <div class="background">
+            <div class="triangle"></div>
+            <div class="triangle2"></div>
+            <div class="triangle3"></div>
+        </div>
+
+        <header> 
+            <a href="../../index.html"><img src='../../public/img/Fichier_000.png' alt='logo' class='logo'/></a>
+            <div class='titre'>
+                <h3 class='titre1'>FLY.</h3>
+                <ul class="nav-bar">
+                    <li class="dropbtn2" onclick="secteur()">secteurs</li>
+                    <div id="myDropdown2" class="dropdown-content2">
+                        <a href="../../index.html"><li>Musique</li></a>
+                        <a href="../../litterature.html"><li>Litterature</li></a>
+                    </div>
+                    <a href="../../src/pages/offres.html"><li>offres</li></a>
+                    <a href="../../src/pages/about.html"><li>about</li></a>
+                    <li class="soon">Wallet</li>
+                </ul>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="../../index.html"><li>Musique</li></a>
+                        <a href="../../litterature.html"><li>Litterature</li></a>
+                        <a href="../../src/pages/offres.html"><li>offres</li></a>
+                        <a href="../../src/pages/about.html"><li style="text-decoration: underline;">about</li></a>
+                        <li class="soon">Wallet</li>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="about-corps">
+            <div class="cote">
+                <div class="link debut-about">
+                    <div class="reseau facebook" alt="facebook"></div>
+                    <div class=" reseau instagram" alt="instagram"></div>
+                    <div class="reseau linkedin" alt="linkedin"></div>
+                </div>
+                <a href="mailto:flyproduction485@gmail.com"><button class="contact-bttn">Contact</button></a>
+                <ul class="chapitreCVG">
+                    <a href="#caractere"><li class="listeCGV">Caractéristique du bien et des services</li></a>
+                    <a href="#Prix"><li class="listeCGV">Nos prix</li></a>
+                    <a href="#condition"><li class="listeCGV">Conditions de paiement </li></a>
+                    <a href="#Mode"><li class="listeCGV">Modalité de livraison, Transfert de propriété</li></a>
+                    <a href="#garantie"><li class="listeCGV">Garanties légales de conformité et des vices cachés</li></a>
+                    <a href="#droit"><li class="listeCGV">Droit de rétractation du consommateur</li></a>
+                </ul>
+            </div>
+
+            <div class="corps-scroll">
+                <h1 id="Preambule" class="titreCGV">Préambule</h1>
+                <pre class="TexteCGV">
+L'objet des conditions générales de vente :
+Les conditions générales de vente exprimées dans ce dit texte s'appliquent à l’entreprise FLY. Créé en 2020 sous la forme de micro-entreprise, enregistré sous le nom de son créateur à la chambre des entreprises de Bordeaux. 
+Adresse de l’entreprise : 25 rue de Ségur à Bordeaux
+Les conditions générales de vente s'appliquent automatiquement aux clients de la société FLY, soit toutes personnes passant une commande sur le site internet de l’entreprise, sur www.flypandyou.fr. La demande de devis n’est pas considérée comme une commande, mais seulement comme une demande d’information. 
+
+Entreprise :
+Créé en 2020, sous le régime de la micro-entreprise, l’entreprise poursuit et poursuit son activité également suite à la modification de sa forme juridique. 
+Ce changement potentiel n’est pas de nature à modifier ou annuler les contrats passés avant le changement de forme ou de statut de l’entreprise. Ce changement ne sera pas de nature à avoir des conséquences sur la / les commandes du client. 
+
+Client :
+Dit client de l’entreprise les individus ou personnes physiques ou morales, qui passe commande à l'entreprise via notre site internet, ou toutes plateformes permettant à l’entreprise de recevoir une commande. La commande est alors validée au dépôt de l'acompte demandé une fois le devis accepté. 
+
+Conclusion du contrat :
+Conformément aux dispositions du Code Civil sur la conclusion du contrat, le contrat sera conclu lorsqu’il y aura une acceptation explicite de la présentation et du devis envoyé par l’entreprise, après avoir pris connaissance du prix total, visualisé et compris l’offre et avoir eu la possibilité de corriger d'éventuelles erreurs. 
+                </pre>
+
+                <h1 id="caractere" class="titreCGV">Caractéristiques du produit, formules et services</h1>
+                <pre class="TexteCGV">
+Le produit, le flyp
+Le flyp est le support cross-plateforme créé et vendu exclusivement par FLY. Composé de trois éléments : un livret illustré, une carte à QR code à l’image du projet et une web application sur laquelle les utilisateurs découvriront le contenu, articles et images exclusif du projet. 
+
+Le flyp est vendu sous forme de lot à nos clients, quantité indiqué dans la sous section suivante. 
+La conception du produit
+Le produit est conçu par le client et les équipes de FLY. Toutes les images sont sélectionnées par le client ou son équipe et transmises par celui-ci dans le dossier de création envoyé par FLY suite à la commande.  
+Les formules 
+Le flyp est livré sous forme de lot ou stock à nos clients. L’entreprise propose 4 lots prédéfinis et la possibilité de prendre un lot avec une quantité personnalisée à partir de 100 flyp. 
+Le lot découverte 
+Le lot découverte et la formule découverte du produit et des services de l’entreprise. La formule comprend : 
+- 25 flyp, 
+- Un accompagnement personnalisé à la création du flyp et l'envoi du dossier de création du produit. 
+- Le traitement, conditionnement et frais d’expédition du stock. 
+
+Le lot découverte ne comprend pas le service de retour data* de 3 mois.  
+
+Le lot de découverte ne peut être pris qu’une seule fois par nos clients. Considéré comme une formule unique permettant la découverte du produit par les artistes, leurs équipes et les utilisateurs, l’équipe se consacre pleinement à l'accompagnement de notre client au cours de la création de son produit. Cet accompagnement nécessitant un temps important à notre équipe, une fois l’accompagnement accompli, nous orientons nos clients vers une formule classique qui leur permettra de transmettre leurs projets à plus grande échelle. 
+
+Le lot de 100 flyp
+Le lot de 100 flyp est une formule automatisée de l’entreprise. La formule comprend : 
+
+- 100 flyp, 
+- L’envoie du dossier de création du produit, 
+- Le traitement, conditionnement et frais d’expédition du stock, 
+- le retour data de 3 mois. 
+
+Le lot de 200 flyp
+Le lot de 100 flyp est une formule automatisée de l’entreprise. La formule comprend : 
+200 flyp, 
+
+- L’envoie du dossier de création du produit, 
+- Le traitement, conditionnement et frais d’expédition du stock, 
+- le retour data de 3 mois. 
+
+Le lot de 300 flyp 
+Le lot de 100 flyp est une formule automatisée de l’entreprise. La formule comprend : 
+300 flyp, 
+
+- L’envoie du dossier de création du produit, 
+- Le traitement, conditionnement et frais d’expédition du stock, 
+- le retour data de 3 mois. 
+
+Le retour data*
+
+Le service de retour data est le service de retour sur les données fondamentales du projet. Les données récoltées sont les données relatives au contenu présent sur la web application (ex : titres le plus écouté, le temps passé en moyenne sur l’application par les utilisateurs, sujet le plus visionné etc.). 
+
+Les données sélectionnées aux clients, sont sélectionnées et traitées par l’entreprise, afin d’obtenir un retour simple et clair.
+
+Les données transmises à nos clients sont travaillées par l’entreprise, afin d’assurer l’anonymat et la protection des données personnelles des utilisateurs conformément à l’article 37 de la loi de 2018-493 du 20 juin 2018. (CNIL) 
+
+Le retour data est un service à part entière, pouvant être sélectionné, sur demande, par le client, à tout moment. La durée du service est de 3 mois minimum. 
+
+Le portefeuille FLY. “wallet”
+
+L’entreprise développe actuellement le portefeuille, nommé “wallet”. Cette web application à pour but de permettre aux utilisateurs d’enregistrer leur flyp, la carte donnant accès à la web application dans un portefeuille digital. Cette web application à pour but de permettre au utilisateur de transporter leur collection de flyp partout où ils le souhaite et d’en profiter dans en toute circonstance. 
+
+Fichiers et fichiers informatiques
+
+Tout client est présumé être titulaire des droits de reproduction des moments, images, photos, musiques, vidéos, textes, logos, polices de caractères, bénéficiant des lois sur la propriété intellectuelle, dont ils confient l'impression et la publication à l’entreprise. Le client assume l’entière responsabilité des préjudices qui pourraient être invoqués par un tiers. Les fichiers informatiques nécessaires à la fabrication du produit imprimé doivent être fournis par le client, dans le dossier de création, et doivent être strictement conformes au cahier technique. 
+Le support physique, étant fabriqué, imprimé par nos partenaires et fournisseurs, appliquant une tolérance relative au contrainte dû à leur activité, Le client accepte sans réserve les contraintes relatives à leur activité d’imprimeur et celle relative à l’activité d’internet. 
+
+Il est également convenu que notre responsabilité est entièrement dégagée sur les défauts d’impression, de colorimétrie, de police, de défonce, de chasse de texte, conversions d’images, dans l’hypothèse où ces défauts sont présents sur les fichiers du client. 
+
+Contenu et droit de propriété intellectuelle :
+
+Contenu publié sur la web application 
+
+Le contenu que vous publiez sur la web application est visible de tous. Le client est le seul responsable de tout le contenu qu’il publie. 
+
+Pour tout contenu que vous publiez sur la web application, vous déclarez posséder ou avoir le droit de publier ledit contenu utilisateur. Vous garantissez que ce contenu ou son utilisation par FLY, conféré par la l’accord explicite du client, n’enfreint pas les présentes conditions, la loi applicable, la propriété intellectuelle ou d’autres droits de tiers, ou n’implique aucune affiliation ou approbation, à l’égard de vous-même ou de votre contenu, par FLY ou tout autre artiste, maison de disque ou autre personne ou entité, sans le consentement écrit exprès préalable de l’entreprise et ou de ladite personne ou entité. 
+
+Surveillance du contenu 
+
+Lorsque vous publiez ou partagez du contenu ou d’autres informations sur la web application créée par FLY, elles seront accessibles au public et peuvent être utilisées et re-partagées par d'autres personnes sur et hors des services de FLY, sur et hors internet. Veuillez donc faire preuve de prudence lors de la publication ou du partage sur la web application et tenir compte des conditions d’utilisation du produit et support web. FLY n’est pas responsable du contenu que vous publiez ou partagez. 
+
+FLY peut, sans y être tenue, surveiller ou réviser le contenu publié ou partagé, L’entreprise se réserve le droit de supprimer ou désactiver l’accès à tout contenu, dans la cadre de mise à jour, pour quelque raison que ce soit ou sans raison si il est estimé contraire ou condition général d’utilisation du support, et la licences que vous nous accordez.
+
+Propriété du contenu publié ou partagé
+
+Le client reste titulaire du produit contenu que vous partez sur la web application et nos services; Toutefois, pour que nous puissions rendre votre contenu disponible sur nos services, nous avons besoin d’une licence limitée sur ce contenu.  
+Par conséquent vous accordez par les présentes à FLY une licence non exclusive, transférable, pouvant donner lieu à une sous-licence, libre de droit, entièrement payée, irrévocable et mondiale pour reproduire, rendre disponible, exécuter et afficher, traduire, modifier si nécessaire à sa visibilité ou compréhension, créer des oeuvres dérivées, toujours dans la nécessité de rendre visible le contenu et l’univers de l’artiste et dans le respect de ne point de le détériorer. 
+                    
+                </pre>
+
+                <h1 id="Prix" class="titreCGV">Prix</h1>
+                <pre class="TexteCGV">
+Le prix de référence est le prix affiché sur le site internet de l’entreprise, exprimé toute taxe comprise (TTC), à sa page offre. Le prix transmis dans chaque devis est calculé sur la base du prix annoncé sur le site internet et non ailleurs. 
+Les prix sont facturés sur la base des tarifs en vigueur au jour de la commande, ils s’entendent hors taxe, en euro uniquement. 
+
+Le prix des formules :
+
+Le prix des formules est calculé en additionnant le prix unitaire du flyp, la quantité souhaitée et les services additionnels souhaités. Le prix de la formule varie alors varier en fonction de la demande exprimée. Le devis nous donne alors une estimation exacte du prix de la formule souhaitée. 
+
+Dans le cas des formules de stock classique, la demande et l'obtention du devis s'effectuent en un clic, sur la page offres du site internet. Dans le cas du lot personnalisé la demande sera traitée le plus rapidement possible. 
+
+Le prix du service de retour data :
+
+Le prix du retour data est estimé en fonction de la durée du retour demandée (durée minimum de 3 mois). 
+                    
+                </pre>
+
+                <h1 id="condition" class="titreCGV">Condition de Paiement</h1>
+                <pre class="TexteCGV">
+Moyens de paiement 
+Les moyens de paiement accepté pour le règlement d’une commande sont les suivant : 
+- Le virement bancaire
+- Par chèque adressé au siège 
+- En ligne par carte bancaire - avec le lien transmis par l’équipe. 
+
+En cas de paiement par chèque, la mise en fabrication n’est démarré qu’à la réception du titre de paiement. De même pour le virement bancaire 
+
+L’acompte :
+
+Il est possible de régler la commande en comptant ou différé. 
+La commande peut être réglée avec chacun des moyens de paiement indiqué plus haut. Le règlement peut également être divisé en deux règlements. Le dépôt d’un acompte minimum est demandé ; la fabrication n’est démarré qu’à la réception de l’acompte.  
+
+Pour chaque formule un montant minimum est demandé pour démarrer la fabrication, soit 30% du prix. La valeur exacte de l’acompte vous sera communiquée dans le devis. 
+Règlement du service de retour data 
+Le retour date est un service qui s’étend sur une période plus ou moins importante, il est donc possible de régler comptant ou différé. Le règlement mensuel est admis, les mensualités seront calculées par l’entreprise qui les transmettra par devis avant le règlement. Les mensualités ne peuvent être réglées seulement par virement bancaire à la date d’échéance. 
+Facture 
+Une facture est établie à chaque commande. Elles sont envoyées par mail. 
+                    
+                    
+                </pre>
+
+                <h1 id="Mode" class="titreCGV">Modalité de livraison et transfert de propriété </h1>
+                <pre class="TexteCGV">
+Le délai de livraison est estimé à J+10 ou J+15 à la suite de la validation du dossier de création.
+
+Le délais de conception et validation du dossier de création : 
+
+Le délai de livraison de J+15 après la validation du temps de création est un délai indicatif. Le temps à compléter et valider le dossier de création, transmis au client, par l’équipe suite à la commande et dépôt de l'acompte, dépend de l’activité du client. On va donc avoir un temps de conception et validation qui va varier en fonction du temps passé à compléter le dossier de création, et ce temps va s’additionner au temps de livraison. 
+
+L’entreprise indique le temps de livraison suite à la validation du dossier de création, mais ne s’engage pas sur le délai de conception et validation du dossier de création. 
+
+Le client est réputé avertie et avoir pris connaissance des délais avant de passer commande à l’entreprise, dès lors le temps de conception et validation du dossier de création ne pourra être invoqué par le client pour rompre le contrat, demander des réparations, une remise ou dommages et intérêts. 
+
+Le délai de livraison : 
+
+Le délai indiqué sur le site sur son et de délai de fabrication. Il est calculé en fonction des délais fournis par les fournisseurs et du temps de conception du support physique et numérique. Il est calculé également en jour ouvrée hors week-end et jours fériés. 
+La livraison est ajoutée au délai. Le temps de livraison peut être de 24h ou 48h en fonction de la quantité demandée, en France métropolitaine. 
+
+Les délais de livraison sont donnés à titre purement indicatif sans garantie. Tout retard d'exécution des commandes ne saurait servir de base à l’annulation de celui-ci, à refuser les marchandises ou de bénéficier des dommages et intérêts. 
+Le délai indicatif qui apparaît sur le site internet de l'entreprise peut faire l’objet d’une révision si les fichiers du client sont actualisés ou s' ils n’étaient pas conforme et doivent être modifiés. 
+
+Il appartient au destinataire de vérifier le bon état au moment de la livraison. Cette livraison doit porter sur la qualité, les quantités et les références des marchandises ainsi que leur conformité à la commande. Les délais de transports ne sont jamais garantis.  
+
+Tout retard dû, soit à la non remise par le client des documents prévus, soit à la survenance de cas de force majeure, entraînera à juste titre l’application de délais supplémentaires. 
+Délai de fabrication
+La fabrication ne peut intervenir que si le client est à jour de ses obligations envers le vendeur et notamment s’il n’existe aucun retard de paiement, y compris sur d’autres commandes que celle-ci qui doit être livrée. 
+                                     
+                </pre>
+
+                <h1 id="garantie" class="titreCGV">Garantie légale de conformité et des vices cachés</h1>
+                <pre class="TexteCGV">
+Garantie de conformité :
+
+L’entreprise s’engage à fournir une produit respectant la commande. Le produit est conçu avec des partenaires sélectionnés par l’entreprise qui comme nous s’engagent à fournir un produit de qualité. 
+
+Conformité du support physique / livret & carte :
+
+Le visuel du livret et la carte à QR code sont conçus par le client pour son équipe. Nous nous engageons à respecter le visuel souhaité et commandé à l’entreprise. 
+
+Conformité de la web application flyp :
+
+La web application conçue par FLY à pour but de mettre en avant le travail de l’artiste.
+
+Nous nous engageons à mettre en place une web application qui mettra en avant, comme souhaité, un contenu donné à publier et transmis aux utilisateurs par la web application.
+
+L’entreprise FLY, s’engage à fournir une web application fonctionnelle, sur laquelle le contenu de l’artiste sera disponible (musiques, images, textes, vidéos), mais également, la mise en place des liens est redirection fonctionnelle.  L’entreprise s’engage à mettre en place une web application à l’image de l’artiste, avec des liens clairs vers une ou des plateformes sélectionnées. 
+
+L’entreprise ne s’engage pas sur les chiffres et les résultats obtenus ou espérés du produit une fois mise en vente. Le retour data* est un retour sur les données généré à un instant T par la web application, dès lors l’entreprise ne peut modifier le résultat du retour data et ne peut s’engager sur le retour obtenu par le client. 
+Garantie des vices cachés 
+FLY s’engage à maintenir l’accès à la web application et à leur session, les artistes et les utilisateurs du produit 24h sur 24h, toutefois, sa responsabilité ne pourra être engagée en cas d’interruption de service, notamment pour des raisons de maintenance ou de problème technique. Le client déclare connaître les limites techniques liées aux technologies de l’internet, notamment en ce qui concerne la consultation des informations, le transfert des fichiers et les risques liés à cette technologie.
+
+                </pre>
+
+                <h1 id="droit" class="titreCGV">Droit de rétractation et réclamation</h1>
+                <pre class="TexteCGV">
+Réclamation :
+
+Toutes avaries, manquement défaut d'emballage constaté à la réception du colis, suite à son transport, doivent être porté à la connaissance de l’entreprise par recipissé au transporteur après contrôle minutieux de la livraison; et faire l’objet d’une courrier avec A.R adressé au transporteur dans un délai de 48 heures, avec copie à FLY par mail. En aucun cas, les litiges avec les transporteurs ne peuvent justifier le non règlement des marchandises facturées. 
+
+Toute contestation relative à la qualité de la marchandise ne pourra être admise que dans les 3 jours ouvrés au plus tard qui suivent la réception effective des marchandises ou à la date de la signature de la décharge, faite au transporteur. La contestation doit être adressée à l’entreprise par lettre recommandée au siège de l’entreprise. 
+L’entreprise ne garantit, en cas de livraison défectueuse, que l’échange des marchandises. En cas de livraison défectueuse, notre société FLY, ne peut proposer que le remplacement de la marchandise par un produit équivalent ou identique. Tout remboursement partiel ou total, de la commande reçue défectueuse, est exclu.
+    
+L’entreprise garantit le remplacement de la marchandise défectueuse pour des produits conformes aux détails de la commande à l’exclusion expresse de tous dommages et intérêts pour préjudice subi direct et indirect, et notamment lors de la survenance d’une situation de la force majeure, d’un cas fortuit ou dans le cas d’un événement qui rendrait impossible à notre société l’exclusion de ses obligations. 
+Compte tenu des pratiques admises dans la profession et des contraintes techniques liées à nos fabrications, notre société n’est pas tenue d’assurer la livraison de l'exacte quantité prévue à la commande. Le client est tenu d’accepter une tolérance en plus ou en moins de 2% de quantités prévues.  
+
+L’annulation :
+
+Toute annulation de commande ne pourra intervenir qu’après l’acceptation de FLY et sera dans ce cas confirmé par mail. 
+L’entreprise se réserve le droit d’annuler une commande si le prix indiqué est erroné ou mal saisi. La commande est alors suspendue. Dans le cadre d’une annulation de commande, le client ne peut demander une réparation, ou des dommages et intérêts dans le cas ou l’entreprise FLY ne serait pas en mesure d’assurer la commande et la livraison. 
+
+La rétractation : 
+
+Les produits que nous concevons sont confectionnés spécialement pour nos clients. en acceptant nos conditions générales de vente, vous acceptez de renoncer au droit de rétractation pour les biens confectionnés selon les spécifications du consommateur : 
+Les contrats de fourniture des biens confectionnés selon les spécifications du consommateurs ou nettement personnalisés. 
+- Les contrats de fourniture de biens susceptible de se détériorer ou de se périmer rapidement 
+- les contrats de fourniture de biens qui ont été descellés par le consommateur après - la livraison et qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la santé ;
+- les contrats de fourniture d’enregistrements audio ou vidéo ou de logiciels informatiques lorsqu’ils ont été descellés par le consommateur après la livraison
+- Dans le cas où la confection des produits s'effectue avec la collaboration avec le client selon ses spécifications, aucun droit de rétractation légal ne s'applique. Un droit de rétractation ne sera pas accordé.
+
+La force majeure : 
+
+La survenance de la force majeure de nature à retarder, empêcher ou rendre économiquement exorbitante l'exécution de la vente a pour effet de suspendre l'exécution des obligations contractuelles de la société FLY. 
+
+Constitue un cas de force majeure, tout événement de quelque nature qu'il soit, qui échappe raisonnablement au contrôle de l'une ou l'autre des parties tel que, notamment, la survenance d'incendie, rupture d'approvisionnement des matières premières, coupure d'électricité ou panne de machines rendant impossible l'exécution dans les délais prévus du travail confié, grève ou lock-out, interruption des moyens de transport quelle qu'en soit la cause, dispositions légales ou réglementaires affectant la production ou la livraison des produits. 
+Si l’événement se prolonge plus de 3 mois, FLY se réserve, passé ce délai, le droit de résilier le droit de résilier le contrat sans indemnité.  
+La grève, le vandalisme, les actes de terrorismes, ou tout autres événements fortuit qui retardent totalement ou partiellement l'exécution des obligations de la société, qu’il soit d’origine naturelle ou humaine, sont considéré comme force majeure et n'ouvrent pas droit à un dédommagement ou une résiliation de commande de travaux, prestations, ou marchandises. 
+                    
+                </pre>
+
+                <h1 class="titreCGV">Textes applicables</h1>
+                <pre class="TexteCGV">
+Les textes applicables à ces conditions générale de vente sont les suivants :
+Conclusion du contrat : 
+- Article 1112 du code civil
+- Article 1112-1 du code civil
+- Article 1127-6 du code civil 
+Règles générale relative aux conditions générale de vente :
+- Article L.441-1 du code de commerce
+- Article L.441-10 du code de commerce 
+- Article L.441-16 du code de commerce 
+- Article L443-4 du code de commerce 
+Règlement relatif à la protection, la divulgation, vente ou usage des données : 
+- Article 37 de la loi 2018-493 du 20 juin 2018
+Droit de rétractation 
+- Article L221-18 du code de la consommation 
+- Article L221-28 du code de la consommation                 
+                </pre>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--Script mouvement-->
+    <script src="../../src/components/scroll-effect.js"></script>
+
+
+
+</body>
+</html>
+
