@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+* {    
+    box-sizing: border-box;   
+    margin: 0;    
+    padding: 0;
+    align-items: center;
+    font-family: "n27regular";
+    cursor: default;
+    color:whitesmoke;
+}
+
+:root{
+    --color-accent: #DC202B;
+    --background-color: #20232a;
+}
+
+body {
+    background-color: var(--color-accent)!important;
+    width: 100vw;
+}
+
+li {
+    list-style: none;
+    margin: 5pt;
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--main-color-backg-text);
+}
+
+a:link {
+    color: var(--main-color-backg-text);
+}
+  
+a:visited {
+    color: var(--main-color-backg-text);
+}
+  
+a:active {
+    color: var(--main-color-backg-text);
+}
+
+td{
+    font-size: 12px;
+}
+
+
+/* Télephone  */
+@media (max-width: 575.98px) { 
+
+    
+}
+
+/* Télephone Grand */
+@media (max-width: 767.98px) { 
+
+}
+
+/* Tablette  */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Ordinateur  */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Grand écran  */
+@media (max-width: 1399.98px) { 
+
+}
